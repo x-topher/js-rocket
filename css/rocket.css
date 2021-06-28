@@ -24,8 +24,9 @@ right: 0;
 	height:  200px;
 	background: url('../img/rocket.png') no-repeat 0 0;
 	background-size:  cover;
-	transition: bottom 5000ms;
+	transition: all 5000ms;
 	margin-left:  -68.5px;
+	top:  auto;
 }
 
 
@@ -36,7 +37,8 @@ body.body-state1 .rocket {
 body.body-state3 .rocket,
 body.body-state4 .rocket,
 body.body-state5 .rocket {
-	bottom:  1200px;
+	bottom:  1400px;
+	top:  auto;
 }
 
 body.body-state5 .rocket {
@@ -46,7 +48,7 @@ body.body-state5 .rocket {
 	width: 442px;
 	margin-left: -200px;
 	transition: bottom: 12000ms;
-	bottom: 600px;
+	top: 0px;
 }
 
 body.body-state3 .rocket,
