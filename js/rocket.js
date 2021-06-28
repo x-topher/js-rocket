@@ -18,9 +18,9 @@ var changeState = function (state) {
 		document.getElementById('countdown').innerHTML = countDownNumber - 1;
 		countDownNumber = countDownNumber - 1;
 
-		if (countDownNumber <= 0) {
-			changeState(3);
-		};
+			if (countDownNumber <= 0) {
+				changeState(3);
+			};
 		}, 1000);
 
 	} else if (state == 3) {
